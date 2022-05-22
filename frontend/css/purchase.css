@@ -1,0 +1,991 @@
+#session-overview {
+	margin-bottom: 8px
+}
+
+#session-overview h3 {
+	margin: 0
+}
+
+#session-overview .showing-time,
+#session-overview .site-details {
+	margin: 10px 0
+}
+
+#session-overview .showing-time .icon,
+#session-overview .site-details .icon {
+	margin-right: 11px;
+	font-size: 16px
+}
+
+#session-overview .showtime-info {
+	display: flex;
+	margin-top: 2px
+}
+
+#session-overview .showtime-info label {
+	font-weight: bold;
+	min-width: 100px
+}
+
+#session-overview .showtime-info .film-title-container .film-title,
+#session-overview .showtime-info .film-title-container .film-time,
+#session-overview .showtime-info .film-times-container .film-title,
+#session-overview .showtime-info .film-times-container .film-time {
+	margin: 2px 0;
+	line-height: 16px
+}
+
+#session-overview .site-details {
+	margin-bottom: 0
+}
+
+#session-overview .allocated-message {
+	margin: 10px 0 10px 26px
+}
+
+#session-overview .icon-3d {
+	margin-left: 8px
+}
+
+#session-overview .censor {
+	margin: 0 5px 0 0
+}
+
+#session-overview .poster-container {
+	margin-right: 16px;
+	min-height: 70px
+}
+
+#session-overview .allocated-seating {
+	margin-top: 10px
+}
+
+.synopsis p {
+	margin-left: 106px
+}
+
+.synopsis p a {
+	color: #333;
+	font-weight: 600
+}
+
+.synopsis p .show-less {
+	margin-left: 5px
+}
+
+#seat-selection {
+	clear: both;
+	display: none;
+	margin-top: 10px
+}
+
+#ticket-section {
+	margin-top: 24px
+}
+
+form {
+	clear: both
+}
+
+.poster-box {
+	width: 180px;
+	display: flex
+}
+
+#personal-details-section {
+	overflow: hidden;
+	clear: both;
+	display: none
+}
+
+#personal-details-section #PaymentTypes {
+	width: 100%
+}
+
+#session-overview h3 {
+	font-size: 18px;
+	flex-grow: 2
+}
+
+.poster {
+	width: 90px
+}
+
+.movie-title-container {
+	display: flex
+}
+
+.movie-title-container .icon {
+	font-size: 18px;
+	align-self: center;
+	color: #c6c7c8
+}
+
+.icon {
+	color: #c6c7c8
+}
+
+.site-details {
+	font-weight: bold
+}
+
+.icon-3d {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url("../../Images/Icon_3D_18.png") no-repeat
+}
+
+.censor {
+	font-weight: bold
+}
+
+.poster-container {
+	height: 100%
+}
+
+.multi-feature-title {
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px;
+	text-transform: uppercase
+}
+
+.film-info-container {
+	font-size: 11px;
+	text-align: center
+}
+
+.showTime {
+	font-weight: bold
+}
+
+.session-details {
+	display: flex
+}
+
+.film-details {
+	flex-grow: 2
+}
+
+.accordion-btn {
+	cursor: pointer
+}
+
+@media only screen and (max-width:500px) {
+	.film-details-header {
+		min-height: 70px
+	}
+	.film-details {
+		overflow: visible
+	}
+	.film-details-body {
+		margin-left: -60px
+	}
+	.multi-feature-title {
+		max-width: 90px;
+		padding-left: 0;
+		padding-right: 0
+	}
+	.multi-feature-box .film-info-container {
+		width: 45px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis
+	}
+	.multi-feature-box .film-details-header {
+		min-height: 110px
+	}
+	.multi-feature-box .film-details-body {
+		margin-left: -105px;
+		padding-top: 16px
+	}
+	.poster {
+		max-width: 45px;
+		max-height: 65px
+	}
+	.poster-box {
+		max-width: 90px
+	}
+	.synopsis p {
+		margin-left: 0
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.film-details {
+		width: 100px
+	}
+}
+
+#ticket-section .membership-card {
+	margin-top: 12px
+}
+
+#ticket-section .membership-card-fields {
+	margin-top: 10px
+}
+
+#ticket-section .membership-card-fields .card-number-field {
+	margin-right: 12px;
+	border: 1px solid #c6c7c8
+}
+
+#ticket-section #ticket-table-container .ticket-table {
+	margin-top: 12px
+}
+
+#ticket-section #ticket-table-container .ticket-table .quantity {
+	padding-left: 50px;
+	white-space: nowrap
+}
+
+#site-description-section .site-description-header h3 {
+	font-size: 16px;
+	margin: 0
+}
+
+.site-description-header {
+	display: flex
+}
+
+.site-description-header h3 {
+	flex-grow: 2
+}
+
+.ticket-login button {
+	font-size: 14px
+}
+
+.ticket-table-member {
+	color: rgba(59, 69, 84, .8);
+	font-size: 14px;
+	line-height: 18px
+}
+
+.ticket-name {
+	font-size: 14px;
+	line-height: 18px
+}
+
+.membership-card-fields {
+	display: flex
+}
+
+.membership-card-fields .validationMsg {
+	list-style-type: none;
+	width: 250px;
+	display: flex;
+	align-items: center
+}
+
+.card-number-field {
+	height: 32px;
+	min-width: 220px;
+	padding-left: 11px;
+	border-radius: 4px
+}
+
+.card-number-lastname,
+.card-number-pin {
+	display: none
+}
+
+.add-card-btn {
+	height: 36px;
+	min-width: 64px;
+	border-radius: 4px;
+	background: none
+}
+
+.membership-card__login {
+	width: 260px;
+	font-size: 12px;
+	line-height: 15px;
+	display: none
+}
+
+#ticket-section .field-validation-error {
+	width: auto;
+	background-image: none;
+	font-size: 12px;
+	margin-left: 6px;
+	color: #f03434;
+	height: auto
+}
+
+#ticket-section .field-validation-error span {
+	display: inline-block !important
+}
+
+.loading {
+	display: none;
+	margin: auto;
+	width: 20px;
+	height: 20px
+}
+
+.loading div {
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	animation: loading 1.2s cubic-bezier(.5, 0, .5, 1) infinite
+}
+
+.loading div:nth-child(1) {
+	animation-delay: -.45s
+}
+
+.loading div:nth-child(2) {
+	animation-delay: -.3s
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+.name {
+	font-weight: bold;
+	width: 500px
+}
+
+.quantity {
+	width: 130px
+}
+
+#ticket-table {
+	width: 100%
+}
+
+#ticket-table td:nth-child(1) {
+	text-align: left
+}
+
+#ticket-table td:nth-child(3),
+#ticket-table th:nth-child(3) {
+	text-align: center
+}
+
+#ticket-table td:nth-child(4),
+#ticket-table th:nth-child(4) {
+	padding-right: 13px;
+	width: 70px
+}
+
+#ticket-table th,
+#ticket-table td,
+#ticket-table .ticket-login {
+	padding: 7px 0 7px 12px;
+	text-align: right
+}
+
+#ticket-table th,
+#ticket-table td {
+	padding: 5px 0 5px 12px;
+	text-align: right
+}
+
+#ticket-table th {
+	color: #443e3b;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: -.19px;
+	line-height: 15px
+}
+
+#ticket-table td {
+	line-height: 28px;
+	font-size: 16px
+}
+
+#ticket-table td .price {
+	font-weight: normal
+}
+
+#ticket-table td input {
+	height: 30px;
+	padding: 0
+}
+
+#ticket-table td * {
+	vertical-align: middle
+}
+
+#ticket-table td button {
+	padding: 0
+}
+
+#ticket-table td button.login-scroller {
+	padding: 1px 6px
+}
+
+#ticket-table td .subtotal {
+	display: inline-flex;
+	max-width: 60px
+}
+
+#ticket-table thead {
+	border-bottom: 1px solid #e9e9e9
+}
+
+#ticket-table tr {
+	border-bottom: 1px solid #e9e9e9
+}
+
+#ticket-table tr:last-child {
+	border-bottom: none
+}
+
+#site-description-section {
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	padding: 16px
+}
+
+#site-description-section .site-description {
+	height: 70%;
+	overflow: hidden
+}
+
+#site-description-section .site-description p {
+	word-wrap: break-word
+}
+
+#site-description-section .site-description p a { 
+	color: #333;
+	font-weight: 600
+}
+
+#site-description-section .site-description p .show-less {
+	margin-left: 5px
+}
+
+#site-description-section.expanded {
+	height: auto
+}
+
+#site-description-section.expanded .site-description {
+	height: auto
+}
+
+#site-description-section #site-description-toggle {
+	align-self: center
+}
+
+#site-description-section #site-description-toggle .icon {
+	font-size: 21px
+}
+
+#site-description-section .show-description {
+	color: #666;
+	text-decoration: none;
+	padding: 0 0 2px 0
+}
+
+#site-description-section .show-description .expand-text {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #666
+}
+
+#site-description-section .show-description .expand-icon {
+	width: 15px;
+	height: 8px;
+	display: inline-block;
+	margin-left: 5px;
+	background: url("../../Images/triangle-down.png") no-repeat
+}
+
+#site-description-section .show-description.expanded .expand-icon {
+	background: url("../../Images/triangle-up.png") no-repeat
+}
+
+#price-summary {
+	min-height: 60px;
+	border-radius: 4px;
+	background-color: #efefef;
+	overflow: hidden;
+	padding: 5px 0 7px 12px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+
+#price-summary div:first-child {
+	padding-bottom: 8px
+}
+#price-summary .booking-fee-value,
+#price-summary .total-value {
+	float: right
+}
+#price-summary .booking-fee-value span,
+#price-summary .total-value span {
+	padding-right: 13px
+}
+
+#price-summary .total-label,
+#price-summary .total-value {
+	font-weight: bold;
+	font-size: 21px
+}
+#ticket-actionss {
+	float: right;
+	margin-top: 15px
+}
+.pay{
+    text-decoration: none;
+    color:white;
+}
+#ticket-actions .action.next {
+	display: none
+}
+
+#emailMismatchValidation,
+#emailInvalidValidation {
+	display: none;
+	margin-bottom: 10px;
+	color: #f00
+}
+
+@media only screen and (max-width:500px) {
+	#ticket-section th {
+		padding: 0 3px 3px 3px
+	}
+	#ticket-section #ticket-table-container .ticket-table {
+		margin-top: 0
+	}
+	#ticket-section #ticket-table-container .ticket-table .quantity {
+		padding-left: initial
+	}
+	#ticket-section td {
+		padding: 10px 3px;
+		font-size: 14px
+	}
+	#ticket-section td.quantity div {
+		min-width: 65px
+	}
+	#ticket-section td.quantity input {
+		margin: 0 2px 0 2px
+	}
+	#ticket-section td.name {
+		font-size: 18px
+	}
+	#ticket-section td .price {
+		display: block;
+		font-size: 16px
+	}
+	#ticket-section td .icon-button {
+		font-size: 40px
+	}
+	#ticket-section td .short.numeric {
+		height: 40px
+	}
+	#ticket-section .membership-card {
+		margin-bottom: 12px
+	}
+	#ticket-section .membership-card .card-number-field {
+		margin-right: 0;
+		margin-bottom: 5px
+	}
+	#ticket-section .membership-card-fields .validationMsg {
+		margin-top: 5px
+	}
+	#ticket-section #ticket-actions {
+		float: none
+	}
+	#seat-selection #seating-actions {
+		float: none
+	}
+	#seat-selection #seating-actions .action-secondary {
+		width: 100%;
+		margin-bottom: 16px
+	}
+	#cart-action-controls-section .align-right {
+		float: none;
+		display: flex;
+		flex-direction: column
+	}
+	.action,
+	.action-secondary-button {
+		width: 100%;
+		margin-bottom: 8px
+	}
+	.membership-card-fields {
+		flex-direction: column
+	}
+	.membership-card-fields .validationMsg {
+		width: auto
+	}
+	.membership-card-fields .validationMsg .field-validation-error {
+		top: initial;
+		right: initial;
+		float: none;
+		position: initial
+	}
+	.ticket-table th:nth-child(4),
+	.ticket-table td:nth-child(4) {
+		display: none
+	}
+	#price-summary {
+		margin-top: 8px
+	}
+	.desktop-only {
+		visibility: hidden;
+		display: none
+	}
+	.mobile-only {
+		visibility: initial !important
+	}
+}
+
+@media only screen and (min-width:560px) {
+	.desktop-only {
+		visibility: initial
+	}
+	.mobile-only {
+		visibility: hidden;
+		display: none !important
+	}
+}
+
+#seat-selection .Seating-Control {
+	margin-bottom: 5px;
+	margin-top: 24px
+}
+
+#seat-selection #seating-actions {
+	margin-top: 24px
+}
+
+#seating-actions {
+	float: right;
+	margin-bottom: 10px
+}
+
+#loading-indicator {
+	margin: 10px auto;
+	background-image: url(../../Images/Icon_Loading_Light.svg);
+	width: 80px;
+	height: 80px
+}
+
+#seat-selection h2 {
+	float: left
+}
+
+.layout>div {
+	margin: 0 auto
+}
+
+.Seating-Area {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-collapse: collapse
+}
+
+.Seating-Area div {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.Seating-Area tr,
+.Seating-Area td {
+	padding: 0;
+	margin: 0;
+	border: 0
+}
+
+.Seating-Area img {
+	vertical-align: top;
+	display: inline-block;
+	cursor: pointer;
+	border: 0;
+	margin: 0;
+	padding: 0
+}
+
+.Seating-AreaName {
+	font-size: 17px;
+	color: #000;
+	font-family: Verdana, Arial, Helvetica, sans-serif, "MS sans serif";
+	font-style: normal;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.Seating-Area p {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "MS sans serif";
+	position: absolute;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 11px;
+	color: #000;
+	display: table-cell;
+	cursor: pointer;
+	width: 35px !important;
+	line-height: 35px !important
+}
+
+.Seating-RowLabelContainer {
+	height: 100%;
+	float: left;
+	position: relative;
+	display: inline-block;
+	width: 25px;
+	text-align: center;
+	font-weight: bold
+}
+
+.Seating-RowLabelContainer>table {
+	position: absolute;
+	width: 100%;
+	border-collapse: collapse;
+	padding: 0;
+	margin: 0
+}
+
+.Seating-RowLabel {
+	font-size: 11px;
+	font-weight: bold
+}
+
+.Seating-RowLabelContainer div {
+	position: absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif, "MS sans serif";
+	margin: 0;
+	padding: 0;
+	width: 100%
+}
+
+img.SeatImage {
+	z-index: -1;
+	width: 100%;
+	height: 100%
+}
+
+.unselectable {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none
+}
+
+.Seating-Control {
+	position: relative;
+	clear: both
+}
+
+.Seating-Control>div {
+	margin: auto;
+	overflow-y: hidden
+}
+
+.Seating-Theatre {
+	position: relative;
+	display: inline-block;
+	float: left
+}
+
+.Seating-Container {
+	position: relative;
+	visibility: hidden;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center
+}
+
+.Seating-Popup {
+	display: none;
+	z-index: 9999;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	color: #eaeaea;
+	font-style: inherit;
+	cursor: pointer;
+	background-color: #2b2527;
+	font-size: 15px;
+	font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif, "MS sans serif";
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 80px
+}
+
+.Seating-PopupMessage {
+	clear: both;
+	height: 80px;
+	position: relative
+}
+
+.Seating-Screen {
+	position: relative;
+	height: 20px;
+	margin: 0 auto;
+	background-color: #443e3b;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+	font-size: 16px;
+	text-transform: uppercase
+}
+
+#legend {
+	display: block;
+	text-align: center;
+	margin-bottom: 15px
+}
+
+#legend .legend-container {
+	white-space: nowrap;
+	margin: 0 9px
+}
+
+#legend .legend-container span {
+	margin-left: 3px
+}
+
+#legend img {
+	width: 35px;
+	height: 35px
+}
+
+@media only screen and (max-width:500px) {
+	.Seating-Container {
+		margin: initial
+	}
+	.Seating-Screen {
+		width: initial
+	}
+	#legend {
+		display: flex;
+		flex-wrap: wrap
+	}
+}
+
+@media all and (-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+	#loading-indicator {
+		background-image: url(../../Images/Icon_Loading_Light.gif)
+	}
+}
+
+@supports (-ms-ime-align:auto) {
+	#loading-indicator {
+		background-image: url(../../Images/Icon_Loading_Light.gif);
+	}
+}
+
+#personal-details-actions {
+	display: flex;
+	justify-content: flex-end
+}
+
+#personal-details-actions button {
+	margin-left: 8px
+}
+
+#personal-details-actions .link {
+	display: inline-block
+}
+
+#personal-details-actions form .item.capture-email {
+	margin-top: 10px
+}
+
+#personal-details-actions form item.terms input,
+#personal-details-actions form .item.capture-email input {
+	margin-right: 5px
+}
+
+#personal-details-actions h2 {
+	float: left
+}
+
+#personal-details-section form {
+	min-height: 100px
+}
+
+#personal-details-section form .item.terms input,
+#personal-details-section form .item.capture-email input {
+	vertical-align: middle
+}
+
+#personal-details-section form .item.terms label,
+#personal-details-section form .item.capture-email label {
+	vertical-align: middle
+}
+
+#personal-details-section form .item.pre-payment-message {
+	text-align: justify;
+	max-width: 353px
+}
+
+#personal-details-section form .item.pre-payment-message p {
+	white-space: pre-wrap
+}
+
+@media only screen and (max-width:500px) {
+	#personal-details-actions {
+		flex-direction: column;
+		margin-top: 10px
+	}
+	#personal-details-actions button,
+	#personal-details-actions a {
+		margin: 2px 0
+	}
+}
+
+#error-section {
+	display: none;
+	margin-top: 25px
+}
+
+#error-section #error-actions,
+#error-section #error-back {
+	display: none;
+	float: right
+}
+
+#error-section h2 {
+	text-align: center
+}
+
+#error-section h2 em {
+	font-size: 26px;
+	line-height: normal
+}
+#error-section p {
+	color: #443e3b;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px auto 30px auto;
+	max-width: 525px;
+	text-align: center
+}
+#expiryDate {
+    width: 232px;
+}
+.fail-alert{  
+	font-size: 12px!important;
+	color:red!important;
+}

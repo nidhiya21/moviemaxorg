@@ -1,0 +1,289 @@
+html,
+body {
+font-size: 24px;
+}
+.main-container {
+width: 100%;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+}
+.check-container { 
+width: 6.25rem;
+height: 7.5rem;
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: space-between;
+}
+.check-background {
+width: 100%;
+height: calc(100% - 1.25rem);
+background: linear-gradient(to bottom right, #5de593, #41d67c);
+box-shadow: 0px 0px 0px 65px rgba(255, 255, 255, 0.25) inset,
+0px 0px 0px 65px rgba(255, 255, 255, 0.25) inset;
+transform: scale(0.84);
+border-radius: 50%;
+animation: animateContainer 0.75s ease-out forwards 0.75s;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+}
+svg {
+width: 65%;
+transform: translateY(0.25rem);
+stroke-dasharray: 80;
+stroke-dashoffset: 80;
+animation: animateCheck 0.35s forwards 1.25s ease-out;
+}
+.check-shadow {
+bottom: calc(-15% - 5px);
+left: 0;
+border-radius: 50%;
+background: radial-gradient(closest-side, rgba(73, 218, 131, 1), transparent);
+animation: animateShadow 0.75s ease-out forwards 0.75s;
+}
+@keyframes animateContainer {
+0% {
+opacity: 0;
+transform: scale(0);
+box-shadow: 0px 0px 0px 65px rgba(255, 255, 255, 0.25) inset,
+0px 0px 0px 65px rgba(255, 255, 255, 0.25) inset;
+}
+25% {
+opacity: 1;
+transform: scale(0.9);
+box-shadow: 0px 0px 0px 65px rgba(255, 255, 255, 0.25) inset,
+0px 0px 0px 65px rgba(255, 255, 255, 0.25) inset;
+}
+43.75% {
+transform: scale(1.15);
+box-shadow: 0px 0px 0px 43.334px rgba(255, 255, 255, 0.25) inset,
+0px 0px 0px 65px rgba(255, 255, 255, 0.25) inset;
+}
+62.5% {
+transform: scale(1);
+box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.25) inset,
+0px 0px 0px 21.667px rgba(255, 255, 255, 0.25) inset;
+}
+81.25% {
+box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.25) inset,
+0px 0px 0px 0px rgba(255, 255, 255, 0.25) inset;
+}
+100% {
+opacity: 1;
+box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.25) inset,
+0px 0px 0px 0px rgba(255, 255, 255, 0.25) inset;
+}
+}
+
+@keyframes animateCheck {
+from {
+stroke-dashoffset: 80;
+}
+to {
+stroke-dashoffset: 0;
+}
+}
+
+@keyframes animateShadow {
+0% {
+opacity: 0;
+width: 100%;
+height: 15%;
+}
+25% {
+opacity: 0.25;
+}
+43.75% {
+width: 40%;
+height: 7%;
+opacity: 0.35;
+}
+100% {
+width: 85%;
+height: 15%;
+opacity: 0.25;
+}
+}
+.cardWrap {
+width: 27em;
+margin: 3em auto;
+color: #fff;
+font-family: sans-serif;
+margin-top: -112px;
+margin-right:26px;
+}
+
+.card {
+background: linear-gradient(to bottom, #5de593 0%, #5de593 26%, #ecedef 26%, #ecedef 100%);
+height: 14em;
+float: left;
+position: relative;
+padding: 1em;
+margin-top: 100px;
+}
+
+.cardLeft {
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+width: 16em;
+}
+
+.cardRight {
+width: 6.5em;
+border-left: 0.18em dashed #fff;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+.cardRight:before, .cardRight:after {
+content: "";
+position: absolute;
+display: block;
+width: 0.9em;
+height: 0.9em;
+background: #fff;
+border-radius: 50%;
+left: -0.5em;
+}
+.cardRight:before {
+top: -0.4em;
+}
+.cardRight:after {
+bottom: -0.4em;
+}
+
+h1 {
+font-size: 1.1em;
+margin-top: 0;
+}
+h1 span {
+font-weight: normal;
+}
+
+.title,
+.name,
+.seat,
+.time {
+text-transform: uppercase;
+font-weight: normal;
+}
+.title h2,
+.name h2,
+.seat h2,
+.time h2 {
+font-size: 0.9em;
+color: #525252;
+margin: 0;
+}
+.title span,
+.name span,
+.seat span,
+.time span {
+font-size: 0.7em;
+color: #a2aeae;
+}
+
+.title {
+margin: 2em 0 0 0;
+}
+
+.name,
+.seat {
+margin: 0.7em 0 0 0;
+}
+
+.time {
+margin: 0.7em 0 0 1em;
+}
+
+.seat,
+.time {
+float: left;
+}
+
+.eye {
+position: relative;
+width: 2em;
+height: 1.5em;
+background: #fff;
+margin: 0 auto;
+border-radius: 1em/0.6em;
+z-index: 1;
+}
+.eye:before, .eye:after {
+content: "";
+display: block;
+position: absolute;
+border-radius: 50%;
+}
+.eye:before {
+width: 1em;
+height: 1em;
+background: #5de593;
+z-index: 2;
+left: 8px;
+top: 4px;
+}
+.eye:after {
+width: 0.5em;
+height: 0.5em;
+background: #fff;
+z-index: 3;
+left: 12px;
+top: 8px;
+}
+
+.number {
+text-align: center;
+text-transform: uppercase;
+}
+.number h3 {
+color: #5de593;
+margin: 0.9em 0 0 0;
+font-size: 2.5em;
+}
+.number span {
+display: block;
+color: #a2aeae; 
+}
+
+.barcode {
+height: 2em;
+width: 0;
+margin: 1.2em 0 0 0.8em;
+box-shadow: 1px 0 0 1px #343434, 5px 0 0 1px #343434, 10px 0 0 1px #343434, 11px 0 0 1px #343434, 15px 0 0 1px #343434, 18px 0 0 1px #343434, 22px 0 0 1px #343434, 23px 0 0 1px #343434, 26px 0 0 1px #343434, 30px 0 0 1px #343434, 35px 0 0 1px #343434, 37px 0 0 1px #343434, 41px 0 0 1px #343434, 44px 0 0 1px #343434, 47px 0 0 1px #343434, 51px 0 0 1px #343434, 56px 0 0 1px #343434, 59px 0 0 1px #343434, 64px 0 0 1px #343434, 68px 0 0 1px #343434, 72px 0 0 1px #343434, 74px 0 0 1px #343434, 77px 0 0 1px #343434, 81px 0 0 1px #343434;
+}
+.thnx-body {
+font-size: 16px;
+/* padding-right: 79px; */
+padding-left: 157px;
+padding-bottom: 10px;
+font-weight:600;
+}
+.container-err{ 
+padding: 20px;
+}
+body{
+background-color: #f6f4f4;
+font-family: 'Raleway', sans-serif;
+}
+.teal{
+background-color: #ffc952 !important;
+color: #444444 !important;
+}
+a{
+color: #47b8e0 !important;
+}
+.message{
+text-align: left;
+}
+.price1{
+    font-size: 40px;
+    font-weight: 200;
+    display: block;
+    text-align: center;
+}
+.ui.message p {margin: 5px;}
