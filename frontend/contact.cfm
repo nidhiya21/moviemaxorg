@@ -10,7 +10,7 @@
         </header>
         <section id="basic-page">
             <div class="main-content">
-                <div class="staticPage"> 
+                <div class="staticPage">  
                     <div class="print-title">
                         <h1>CONTACT &amp; LOCATION, Movie Max Digital Cinemas</h1>
                     </div>

@@ -17,7 +17,7 @@
                         <a href="./nowplaying.cfm">NOW PLAYING</a>
                     </li>
                     <li>
-                        <a href="./comingsoon.cfm">COMING SOON</a>
+                        <a href="./comingsoon.cfm">COMING SOON</a> 
                     </li>
                     <li>
                         <a href="./prices.cfm" >PRICES &amp; SPECIALS</a>
